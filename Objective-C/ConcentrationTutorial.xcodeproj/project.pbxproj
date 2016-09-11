@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE43E6EC1D79BA0600F4D86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43E6EB1D79BA0600F4D86C /* main.m */; };
+		CE43E6EF1D79BA0600F4D86C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43E6EE1D79BA0600F4D86C /* AppDelegate.m */; };
+		CE43E6F21D79BA0600F4D86C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43E6F11D79BA0600F4D86C /* ViewController.m */; };
+		CE43E6F51D79BA0600F4D86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE43E6F31D79BA0600F4D86C /* Main.storyboard */; };
+		CE43E6F71D79BA0600F4D86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE43E6F61D79BA0600F4D86C /* Assets.xcassets */; };
+		CE43E6FA1D79BA0600F4D86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE43E6F81D79BA0600F4D86C /* LaunchScreen.storyboard */; };
+		CE43E7071D79D93A00F4D86C /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7041D79D93A00F4D86C /* Help.png */; };
+		CE43E7081D79D93A00F4D86C /* PlayingCardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7051D79D93A00F4D86C /* PlayingCardBack.png */; };
+		CE43E70A1D79D95000F4D86C /* greenfeltsmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7091D79D95000F4D86C /* greenfeltsmall.jpg */; };
+		CE43E75B1D79DF5000F4D86C /* Ben Carson.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7411D79DF5000F4D86C /* Ben Carson.png */; };
+		CE43E75C1D79DF5000F4D86C /* Bernie Sanders.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7421D79DF5000F4D86C /* Bernie Sanders.png */; };
+		CE43E75D1D79DF5000F4D86C /* Bobby Jindal.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7431D79DF5000F4D86C /* Bobby Jindal.png */; };
+		CE43E75E1D79DF5000F4D86C /* Carly Fiorina.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7441D79DF5000F4D86C /* Carly Fiorina.png */; };
+		CE43E75F1D79DF5000F4D86C /* Chris Christie.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7451D79DF5000F4D86C /* Chris Christie.png */; };
+		CE43E7601D79DF5000F4D86C /* Donald Trump.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7461D79DF5000F4D86C /* Donald Trump.png */; };
+		CE43E7611D79DF5000F4D86C /* George Pataki.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7471D79DF5000F4D86C /* George Pataki.png */; };
+		CE43E7621D79DF5000F4D86C /* greenfelt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7481D79DF5000F4D86C /* greenfelt.jpg */; };
+		CE43E7631D79DF5000F4D86C /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7491D79DF5000F4D86C /* Help.png */; };
+		CE43E7641D79DF5000F4D86C /* Hillary Clinton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E74A1D79DF5000F4D86C /* Hillary Clinton.png */; };
+		CE43E7651D79DF5000F4D86C /* Jeb Bush.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E74B1D79DF5000F4D86C /* Jeb Bush.png */; };
+		CE43E7661D79DF5000F4D86C /* Jim Gilmore.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E74C1D79DF5000F4D86C /* Jim Gilmore.png */; };
+		CE43E7671D79DF5000F4D86C /* Jim Webb.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E74D1D79DF5000F4D86C /* Jim Webb.png */; };
+		CE43E7681D79DF5000F4D86C /* John Kasich.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E74E1D79DF5000F4D86C /* John Kasich.png */; };
+		CE43E7691D79DF5000F4D86C /* Lawrence Lessig.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E74F1D79DF5000F4D86C /* Lawrence Lessig.png */; };
+		CE43E76A1D79DF5000F4D86C /* Lincoln Chafee.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7501D79DF5000F4D86C /* Lincoln Chafee.png */; };
+		CE43E76B1D79DF5000F4D86C /* Lindsey Graham.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7511D79DF5000F4D86C /* Lindsey Graham.png */; };
+		CE43E76C1D79DF5000F4D86C /* Marco Rubio.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7521D79DF5000F4D86C /* Marco Rubio.png */; };
+		CE43E76D1D79DF5000F4D86C /* Martin O'Malley.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7531D79DF5000F4D86C /* Martin O'Malley.png */; };
+		CE43E76E1D79DF5000F4D86C /* Mike Huckabee.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7541D79DF5000F4D86C /* Mike Huckabee.png */; };
+		CE43E76F1D79DF5000F4D86C /* PlayingCardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7551D79DF5000F4D86C /* PlayingCardBack.png */; };
+		CE43E7701D79DF5000F4D86C /* Rand Paul.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7561D79DF5000F4D86C /* Rand Paul.png */; };
+		CE43E7711D79DF5000F4D86C /* Rick Perry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7571D79DF5000F4D86C /* Rick Perry.png */; };
+		CE43E7721D79DF5000F4D86C /* Rick Santorum.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7581D79DF5000F4D86C /* Rick Santorum.png */; };
+		CE43E7731D79DF5000F4D86C /* Scott Walker.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E7591D79DF5000F4D86C /* Scott Walker.png */; };
+		CE43E7741D79DF5000F4D86C /* Ted Cruz.png in Resources */ = {isa = PBXBuildFile; fileRef = CE43E75A1D79DF5000F4D86C /* Ted Cruz.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE43E6E71D79BA0600F4D86C /* ConcentrationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcentrationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE43E6EB1D79BA0600F4D86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE43E6ED1D79BA0600F4D86C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE43E6EE1D79BA0600F4D86C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE43E6F01D79BA0600F4D86C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE43E6F11D79BA0600F4D86C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE43E6F41D79BA0600F4D86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE43E6F61D79BA0600F4D86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE43E6F91D79BA0600F4D86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE43E6FB1D79BA0600F4D86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE43E7041D79D93A00F4D86C /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
+		CE43E7051D79D93A00F4D86C /* PlayingCardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayingCardBack.png; sourceTree = "<group>"; };
+		CE43E7091D79D95000F4D86C /* greenfeltsmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenfeltsmall.jpg; sourceTree = "<group>"; };
+		CE43E7411D79DF5000F4D86C /* Ben Carson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ben Carson.png"; sourceTree = "<group>"; };
+		CE43E7421D79DF5000F4D86C /* Bernie Sanders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bernie Sanders.png"; sourceTree = "<group>"; };
+		CE43E7431D79DF5000F4D86C /* Bobby Jindal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bobby Jindal.png"; sourceTree = "<group>"; };
+		CE43E7441D79DF5000F4D86C /* Carly Fiorina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carly Fiorina.png"; sourceTree = "<group>"; };
+		CE43E7451D79DF5000F4D86C /* Chris Christie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chris Christie.png"; sourceTree = "<group>"; };
+		CE43E7461D79DF5000F4D86C /* Donald Trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Donald Trump.png"; sourceTree = "<group>"; };
+		CE43E7471D79DF5000F4D86C /* George Pataki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "George Pataki.png"; sourceTree = "<group>"; };
+		CE43E7481D79DF5000F4D86C /* greenfelt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenfelt.jpg; sourceTree = "<group>"; };
+		CE43E7491D79DF5000F4D86C /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
+		CE43E74A1D79DF5000F4D86C /* Hillary Clinton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hillary Clinton.png"; sourceTree = "<group>"; };
+		CE43E74B1D79DF5000F4D86C /* Jeb Bush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jeb Bush.png"; sourceTree = "<group>"; };
+		CE43E74C1D79DF5000F4D86C /* Jim Gilmore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jim Gilmore.png"; sourceTree = "<group>"; };
+		CE43E74D1D79DF5000F4D86C /* Jim Webb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jim Webb.png"; sourceTree = "<group>"; };
+		CE43E74E1D79DF5000F4D86C /* John Kasich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "John Kasich.png"; sourceTree = "<group>"; };
+		CE43E74F1D79DF5000F4D86C /* Lawrence Lessig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lawrence Lessig.png"; sourceTree = "<group>"; };
+		CE43E7501D79DF5000F4D86C /* Lincoln Chafee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lincoln Chafee.png"; sourceTree = "<group>"; };
+		CE43E7511D79DF5000F4D86C /* Lindsey Graham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lindsey Graham.png"; sourceTree = "<group>"; };
+		CE43E7521D79DF5000F4D86C /* Marco Rubio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marco Rubio.png"; sourceTree = "<group>"; };
+		CE43E7531D79DF5000F4D86C /* Martin O'Malley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Martin O'Malley.png"; sourceTree = "<group>"; };
+		CE43E7541D79DF5000F4D86C /* Mike Huckabee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mike Huckabee.png"; sourceTree = "<group>"; };
+		CE43E7551D79DF5000F4D86C /* PlayingCardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayingCardBack.png; sourceTree = "<group>"; };
+		CE43E7561D79DF5000F4D86C /* Rand Paul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rand Paul.png"; sourceTree = "<group>"; };
+		CE43E7571D79DF5000F4D86C /* Rick Perry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rick Perry.png"; sourceTree = "<group>"; };
+		CE43E7581D79DF5000F4D86C /* Rick Santorum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rick Santorum.png"; sourceTree = "<group>"; };
+		CE43E7591D79DF5000F4D86C /* Scott Walker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scott Walker.png"; sourceTree = "<group>"; };
+		CE43E75A1D79DF5000F4D86C /* Ted Cruz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ted Cruz.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE43E6E41D79BA0600F4D86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE43E6DE1D79BA0600F4D86C = {
+			isa = PBXGroup;
+			children = (
+				CE43E7401D79DF5000F4D86C /* Candidates */,
+				CE43E6E91D79BA0600F4D86C /* ConcentrationTutorial */,
+				CE43E6E81D79BA0600F4D86C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE43E6E81D79BA0600F4D86C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE43E6E71D79BA0600F4D86C /* ConcentrationTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE43E6E91D79BA0600F4D86C /* ConcentrationTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				CE43E7091D79D95000F4D86C /* greenfeltsmall.jpg */,
+				CE43E7041D79D93A00F4D86C /* Help.png */,
+				CE43E7051D79D93A00F4D86C /* PlayingCardBack.png */,
+				CE43E6ED1D79BA0600F4D86C /* AppDelegate.h */,
+				CE43E6EE1D79BA0600F4D86C /* AppDelegate.m */,
+				CE43E6F01D79BA0600F4D86C /* ViewController.h */,
+				CE43E6F11D79BA0600F4D86C /* ViewController.m */,
+				CE43E6F31D79BA0600F4D86C /* Main.storyboard */,
+				CE43E6F61D79BA0600F4D86C /* Assets.xcassets */,
+				CE43E6F81D79BA0600F4D86C /* LaunchScreen.storyboard */,
+				CE43E6FB1D79BA0600F4D86C /* Info.plist */,
+				CE43E6EA1D79BA0600F4D86C /* Supporting Files */,
+			);
+			path = ConcentrationTutorial;
+			sourceTree = "<group>";
+		};
+		CE43E6EA1D79BA0600F4D86C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE43E6EB1D79BA0600F4D86C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE43E7401D79DF5000F4D86C /* Candidates */ = {
+			isa = PBXGroup;
+			children = (
+				CE43E7411D79DF5000F4D86C /* Ben Carson.png */,
+				CE43E7421D79DF5000F4D86C /* Bernie Sanders.png */,
+				CE43E7431D79DF5000F4D86C /* Bobby Jindal.png */,
+				CE43E7441D79DF5000F4D86C /* Carly Fiorina.png */,
+				CE43E7451D79DF5000F4D86C /* Chris Christie.png */,
+				CE43E7461D79DF5000F4D86C /* Donald Trump.png */,
+				CE43E7471D79DF5000F4D86C /* George Pataki.png */,
+				CE43E7481D79DF5000F4D86C /* greenfelt.jpg */,
+				CE43E7491D79DF5000F4D86C /* Help.png */,
+				CE43E74A1D79DF5000F4D86C /* Hillary Clinton.png */,
+				CE43E74B1D79DF5000F4D86C /* Jeb Bush.png */,
+				CE43E74C1D79DF5000F4D86C /* Jim Gilmore.png */,
+				CE43E74D1D79DF5000F4D86C /* Jim Webb.png */,
+				CE43E74E1D79DF5000F4D86C /* John Kasich.png */,
+				CE43E74F1D79DF5000F4D86C /* Lawrence Lessig.png */,
+				CE43E7501D79DF5000F4D86C /* Lincoln Chafee.png */,
+				CE43E7511D79DF5000F4D86C /* Lindsey Graham.png */,
+				CE43E7521D79DF5000F4D86C /* Marco Rubio.png */,
+				CE43E7531D79DF5000F4D86C /* Martin O'Malley.png */,
+				CE43E7541D79DF5000F4D86C /* Mike Huckabee.png */,
+				CE43E7551D79DF5000F4D86C /* PlayingCardBack.png */,
+				CE43E7561D79DF5000F4D86C /* Rand Paul.png */,
+				CE43E7571D79DF5000F4D86C /* Rick Perry.png */,
+				CE43E7581D79DF5000F4D86C /* Rick Santorum.png */,
+				CE43E7591D79DF5000F4D86C /* Scott Walker.png */,
+				CE43E75A1D79DF5000F4D86C /* Ted Cruz.png */,
+			);
+			name = Candidates;
+			path = ConcentrationTutorial/Candidates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE43E6E61D79BA0600F4D86C /* ConcentrationTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE43E6FE1D79BA0600F4D86C /* Build configuration list for PBXNativeTarget "ConcentrationTutorial" */;
+			buildPhases = (
+				CE43E6E31D79BA0600F4D86C /* Sources */,
+				CE43E6E41D79BA0600F4D86C /* Frameworks */,
+				CE43E6E51D79BA0600F4D86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcentrationTutorial;
+			productName = ConcentrationTutorial;
+			productReference = CE43E6E71D79BA0600F4D86C /* ConcentrationTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE43E6DF1D79BA0600F4D86C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "No Tie";
+				TargetAttributes = {
+					CE43E6E61D79BA0600F4D86C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CE43E6E21D79BA0600F4D86C /* Build configuration list for PBXProject "ConcentrationTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE43E6DE1D79BA0600F4D86C;
+			productRefGroup = CE43E6E81D79BA0600F4D86C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE43E6E61D79BA0600F4D86C /* ConcentrationTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE43E6E51D79BA0600F4D86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE43E7741D79DF5000F4D86C /* Ted Cruz.png in Resources */,
+				CE43E7711D79DF5000F4D86C /* Rick Perry.png in Resources */,
+				CE43E7071D79D93A00F4D86C /* Help.png in Resources */,
+				CE43E75F1D79DF5000F4D86C /* Chris Christie.png in Resources */,
+				CE43E7651D79DF5000F4D86C /* Jeb Bush.png in Resources */,
+				CE43E7661D79DF5000F4D86C /* Jim Gilmore.png in Resources */,
+				CE43E7641D79DF5000F4D86C /* Hillary Clinton.png in Resources */,
+				CE43E75D1D79DF5000F4D86C /* Bobby Jindal.png in Resources */,
+				CE43E6FA1D79BA0600F4D86C /* LaunchScreen.storyboard in Resources */,
+				CE43E7621D79DF5000F4D86C /* greenfelt.jpg in Resources */,
+				CE43E7681D79DF5000F4D86C /* John Kasich.png in Resources */,
+				CE43E75C1D79DF5000F4D86C /* Bernie Sanders.png in Resources */,
+				CE43E76A1D79DF5000F4D86C /* Lincoln Chafee.png in Resources */,
+				CE43E7701D79DF5000F4D86C /* Rand Paul.png in Resources */,
+				CE43E6F71D79BA0600F4D86C /* Assets.xcassets in Resources */,
+				CE43E7731D79DF5000F4D86C /* Scott Walker.png in Resources */,
+				CE43E7721D79DF5000F4D86C /* Rick Santorum.png in Resources */,
+				CE43E76F1D79DF5000F4D86C /* PlayingCardBack.png in Resources */,
+				CE43E75B1D79DF5000F4D86C /* Ben Carson.png in Resources */,
+				CE43E76D1D79DF5000F4D86C /* Martin O'Malley.png in Resources */,
+				CE43E76C1D79DF5000F4D86C /* Marco Rubio.png in Resources */,
+				CE43E6F51D79BA0600F4D86C /* Main.storyboard in Resources */,
+				CE43E76E1D79DF5000F4D86C /* Mike Huckabee.png in Resources */,
+				CE43E7671D79DF5000F4D86C /* Jim Webb.png in Resources */,
+				CE43E70A1D79D95000F4D86C /* greenfeltsmall.jpg in Resources */,
+				CE43E7611D79DF5000F4D86C /* George Pataki.png in Resources */,
+				CE43E7601D79DF5000F4D86C /* Donald Trump.png in Resources */,
+				CE43E7631D79DF5000F4D86C /* Help.png in Resources */,
+				CE43E7081D79D93A00F4D86C /* PlayingCardBack.png in Resources */,
+				CE43E7691D79DF5000F4D86C /* Lawrence Lessig.png in Resources */,
+				CE43E76B1D79DF5000F4D86C /* Lindsey Graham.png in Resources */,
+				CE43E75E1D79DF5000F4D86C /* Carly Fiorina.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE43E6E31D79BA0600F4D86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE43E6F21D79BA0600F4D86C /* ViewController.m in Sources */,
+				CE43E6EF1D79BA0600F4D86C /* AppDelegate.m in Sources */,
+				CE43E6EC1D79BA0600F4D86C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE43E6F31D79BA0600F4D86C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE43E6F41D79BA0600F4D86C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE43E6F81D79BA0600F4D86C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE43E6F91D79BA0600F4D86C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE43E6FC1D79BA0600F4D86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE43E6FD1D79BA0600F4D86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE43E6FF1D79BA0600F4D86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConcentrationTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NoTieSw.ConcentrationTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE43E7001D79BA0600F4D86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConcentrationTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NoTieSw.ConcentrationTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE43E6E21D79BA0600F4D86C /* Build configuration list for PBXProject "ConcentrationTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE43E6FC1D79BA0600F4D86C /* Debug */,
+				CE43E6FD1D79BA0600F4D86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE43E6FE1D79BA0600F4D86C /* Build configuration list for PBXNativeTarget "ConcentrationTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE43E6FF1D79BA0600F4D86C /* Debug */,
+				CE43E7001D79BA0600F4D86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE43E6DF1D79BA0600F4D86C /* Project object */;
+}
